@@ -89,6 +89,8 @@ public class testSelectionSort {
         arr = test.basicSelectionSort(arr);
         
         assertArrayEquals("Mixed Test Fails",Sortedarr,arr);
+        
+        //edited by Bobby
     }
     
     public void testDuplicates(){
@@ -111,6 +113,8 @@ public class testSelectionSort {
         arr = test.basicSelectionSort(arr);
         
         assertArrayEquals("Duplicates Test Fails",Sortedarr,arr);
+        
+        //edited by Bobby
     }
     
 }
