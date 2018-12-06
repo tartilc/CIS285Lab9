@@ -41,6 +41,8 @@ public class testSelectionSort {
         
         assertArrayEquals("Positive Test Fails", Sortedarr, arr);
         
+        //edited by ricky
+        
     }
     
     public void testNegative()	{
@@ -63,6 +65,8 @@ public class testSelectionSort {
         arr = test.basicSelectionSort(arr);
         
         assertArrayEquals("Negative Test Fails",Sortedarr,arr);
+        
+        //edited by ricky
     }
     
     public void testMixed()	{
